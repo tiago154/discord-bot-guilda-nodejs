@@ -1,0 +1,20 @@
+{
+  "name": "discord-bot-guilda-nodejs",
+  "version": "1.0.0",
+  "description": "Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiago154/discord-bot-guilda-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiago154/discord-bot-guilda-nodejs/issues"
+  },
+  "homepage": "https://github.com/tiago154/discord-bot-guilda-nodejs#readme"
+}
