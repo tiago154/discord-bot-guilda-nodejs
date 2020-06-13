@@ -4,17 +4,26 @@
   "description": "Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tiago154/discord-bot-guilda-nodejs.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "bot",
+    "discord",
+    "nodejs"
+  ],
+  "author": "Tiago Santos Da Silva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tiago154/discord-bot-guilda-nodejs/issues"
   },
-  "homepage": "https://github.com/tiago154/discord-bot-guilda-nodejs#readme"
+  "homepage": "https://github.com/tiago154/discord-bot-guilda-nodejs#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "nodemon": "^2.0.4"
+  }
 }
