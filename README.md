@@ -28,10 +28,10 @@
 - [Uso](#usage)
 - [Utilizando](#getting_started)
 - [Construído usando](#built_using)
-- [Contribuidores](../CONTRIBUTING.md)
+- [Contrubuindo](../CONTRIBUTING.md)
 - [Autores](#authors)
 
-## 🧐 - Sobre <a name = "about"></a>
+## 🧐- Sobre <a name = "about"></a>
 
 Bombril bot é responsável por ajudar seus usuários em diversas tarefas (mil e uma utilidade).<br/>
 Atualmente possui as funcionalidades:
