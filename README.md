@@ -16,11 +16,11 @@
 
 ---
 
-<p align="center"> 🤖 Bot desenvolvido na Guilda de Nodejs exemplificando alguns recursos na plataforma do Discord
+<p align="center"> 🤖 - Bot desenvolvido na Guilda de Nodejs exemplificando alguns recursos na plataforma do Discord
     <br>
 </p>
 
-## 📝 Conteúdo
+## 📝 - Conteúdo
 
 - [Sobre](#about)
 - [Demonstração](#demo)
@@ -31,7 +31,7 @@
 - [Contribuidores](../CONTRIBUTING.md)
 - [Autores](#authors)
 
-## 🧐 Sobre <a name = "about"></a>
+## 🧐 - Sobre <a name = "about"></a>
 
 Bombril bot é responsável por ajudar seus usuários em diversas tarefas (mil e uma utilidade).<br/>
 Atualmente possui as funcionalidades:
@@ -39,11 +39,11 @@ Atualmente possui as funcionalidades:
 - Informações de localidade pelo CEP
 - Dados relacionados ao COVID-19 por país
 
-## 🎥 Demonstração <a name = "demo"></a>
+## 🎥 - Demonstração <a name = "demo"></a>
 
 ![demo-bombril](https://user-images.githubusercontent.com/10531605/84601614-df4d6300-ae57-11ea-8f81-64de81080ac7.gif)
 
-## 💭 Como funciona <a name = "working"></a>
+## 💭 - Como funciona <a name = "working"></a>
 
 - CEP: <br/>
 O bot consulta uma API publica de CEP (https://docs.awesomeapi.com.br/api-cep), filtra os dados relevantes e monta uma mensagem amigável para o usuário. Também é montado a URL do Google Maps com a localidade aproximada.
@@ -53,7 +53,7 @@ O bot consulta uma API publica do COVID-19 (https://github.com/NOVELCOVID/API), 
 
 O Bot inteiro é escrito em Nodejs 12
 
-## 🎈 Uso <a name = "usage"></a>
+## 🎈 - Uso <a name = "usage"></a>
 
 Para usar o bot digite:
 
@@ -76,7 +76,7 @@ Para usar o bot digite:
 O país tem que ser escrito em ingles exemplo: `Brazil` ou utilizar o padrão `ISO 3166-1` com o código de 2 (`BR`) ou 3 (`BRA`) caracteres.
 
 
-## 🏁 Utilizando <a name = "getting_started"></a>
+## 🏁 - Utilizando <a name = "getting_started"></a>
 
 ### Pré-requisitos
 
@@ -118,12 +118,12 @@ ou para auto reload
 npm run dev
 ```
 
-## ⛏️ Construído usando <a name = "built_using"></a>
+## ⛏️ - Construído usando <a name = "built_using"></a>
 
 - [Discord.js](https://discord.js.org/#/) - O Discord.js é um poderoso módulo node.js que permite interagir com a API do Discord com muita facilidade
 - [Axios](https://www.npmjs.com/package/axios) - Cliente HTTP baseado em Promise para o navegador e node.js
 
-## ✍️ Autores <a name = "authors"></a>
+## ✍️ - Autores <a name = "authors"></a>
 
 - [@tiago154](https://github.com/tiago154) - Construção da ideia e trabalho inicial
 
