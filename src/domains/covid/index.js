@@ -30,13 +30,13 @@ bot.on('message', async message => {
         return message.channel.send('Segue os dados', messageEmbed).then(message => message.react('😧'))
       }
 
-      return message.channel.send('Pais não localizado, tente escrever o pais em ingles ou a sigla, exemplo: BR, BRA ou Brazil')
+      return message.channel.send('País não localizado, tente escrever o país em ingles ou a sigla, exemplo: BR, BRA ou Brazil')
     }
   }
 })
 
 bot.on('message', message => {
   if (message.content === `${prefix} covid` || message.content === `${prefix} covid:`) {
-    message.reply('Coloque o pais na frente de !bombril covid:<pais>, exemplo: !bombril covid:br ou !bombril covid:brazil')
+    message.reply('Coloque o país na frente de !bombril covid:<país>, exemplo: !bombril covid:br ou !bombril covid:brazil')
   }
 })
