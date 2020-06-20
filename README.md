@@ -20,6 +20,10 @@
     <br>
 </p>
 
+<p align="center"> ❓ - A ideia é que cada desenvolvedor deixe online sua própria versão do bot. Os passos para isso serão descritos abaixo.
+    <br>
+</p>
+
 ## 📝 - Conteúdo
 
 - [Sobre](#about)
@@ -78,12 +82,36 @@ O país tem que ser escrito em ingles exemplo: `Brazil` ou utilizar o padrão `I
 
 ## 🏁 - Utilizando <a name = "getting_started"></a>
 
+### Ideia
+
+A ideia é que o desenvolvedor suba sua própria versão do BOT
+
 ### Pré-requisitos
 
 Para rodar o bot será necessário:
 
 - Ser administrador em um servidor discord
 - Ter o Nodejs 12 instalado
+- Criar seu bot no [painel do discord](https://discord.com/developers/applications)
+
+### Criando seu BOT no Discord
+
+Acesse https://discord.com/developers/applications e crie sua aplicação responsável pelo BOT
+
+![discord-applications](https://user-images.githubusercontent.com/10531605/85205402-9bdc7400-b2f1-11ea-8178-7437022a41cb.png)
+
+<div style="display: flex">
+  <img src="https://user-images.githubusercontent.com/10531605/85205451-d34b2080-b2f1-11ea-9792-a043a1d80979.png" style="margin: auto"/>
+</div>
+
+Depois disso, adicione seu bot
+
+![image](https://user-images.githubusercontent.com/10531605/85205465-e65df080-b2f1-11ea-8d34-bfaac30126e4.png)
+
+Autorize o bot em seu servidor.<br>
+A URL para integração pode ser gerada no link `https://discord.com/developers/applications/{CLIENT_ID}/oauth2`.
+
+![generate-integration-url](https://user-images.githubusercontent.com/10531605/85205615-d397eb80-b2f2-11ea-9df9-20b337292bbd.png)
 
 ### Instalando
 
@@ -102,9 +130,6 @@ npm install
 ```
 
 Não esqueça de preencher o arquivo `.env` com o token do BOT (https://discordjs.guide/preparations/setting-up-a-bot-application.html#your-token) e outras variaveis de ambiente. O exemplo de quais valores deve ser preenchido está disponivel no arquivo `.env_example`.
-
-Autorize o bot a ser utilizado em seu servidor.<br/>
-A URL para integração pode ser gerada no link `https://discord.com/developers/applications/{CLIENT_ID}/oauth2`.
 
 Para iniciar o bot, digite:
 
